@@ -4,7 +4,7 @@ class Php54Uuid < AbstractPhp54Extension
   init
   homepage 'http://pecl.php.net/package/uuid'
   url 'http://pecl.php.net/get/uuid-1.0.2.tgz'
-  sha1 'f51820a310ade0eb7200375486bf88d721d89f17'
+  sha1 'ad936b20fdbeecc803b9770c292e8d763026597d'
   head 'https://svn.php.net/repository/pecl/uuid/trunk', :using => :svn
 
   def patches
